@@ -22,8 +22,8 @@ class PrinterTest {
 
     @Test
     void printer() {
-        Assertions.assertEquals(Printer.printer(1),p1);
-        Assertions.assertEquals(Printer.printer(2),p2);
-        Assertions.assertEquals(Printer.printer(3),p3);
+        Assertions.assertEquals(p1,Printer.printer(1));
+        Assertions.assertEquals(p2,Printer.printer(2));
+        Assertions.assertEquals(p3,Printer.printer(3));
     }
 }
