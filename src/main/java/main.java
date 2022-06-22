@@ -66,11 +66,6 @@ public class main {
 
 
 
-
-
-
-
-
 //    public static void main(String[] args) throws IOException {
 //        try (InputStream propFile = new FileInputStream("src/main/resources/app.properties")) {
 //            Properties prop = new Properties();
