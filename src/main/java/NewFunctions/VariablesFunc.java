@@ -1,3 +1,5 @@
+package NewFunctions;
+
 public class VariablesFunc {
 //    Задание 2.1
 //    Напишите класс, который выводит на экран надпись "Hello, world!"
