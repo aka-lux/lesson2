@@ -4,14 +4,14 @@ public class Figures {
      * Площадь равностороннего треугольника равна Sтреуг= √3/4*a^2
      */
     public static Double triangle(int a){
-        return 0.0;
+        return Math.sqrt(3)/4*a*a;
     }
 
     /*
      * Площадь квадрата S=a^2
      */
     public static long square(int a){
-        return 0;
+        return a*a;
     }
 
 }
