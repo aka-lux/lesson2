@@ -1,12 +1,22 @@
 package NewFunctions;
 
 public class VariablesFunc {
-//    Задание 2.1
+    public static void main(String[] args) {
+        task21();
+        taks22();
+    }
+
+    //    Задание 2.1
 //    Напишите класс, который выводит на экран надпись "Hello, world!"
-//
-//    Задание 2.2
+    public static void task21() {
+        System.out.println("Hello World!");
+    }
+
+    //    Задание 2.2
 //    Напишите класс, который выводит на экран надпись "H-e-1-1-o-,-f-r-i-e-n-d!"
-//
+    public static void taks22() {
+        System.out.println("H-e-1-1-o-,-f-r-i-e-n-d!");
+    }
 //    Задание 2.3
 //    Напишите класс, который выводит на экран в первой строке три знака «+»,во второй - четыре знака«!», в третьей - два знака«?».
 //
