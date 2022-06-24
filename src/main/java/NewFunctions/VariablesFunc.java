@@ -1,6 +1,11 @@
 package NewFunctions;
 
 public class VariablesFunc {
+
+    public static void main(String[] args) {
+task210();
+task211();
+    }
 //    Задание 2.1
 //    Напишите класс, который выводит на экран надпись "Hello, world!"
 //
@@ -26,12 +31,23 @@ public class VariablesFunc {
 //    Задание 2.10
 //    Напишите класс, который присваивает двум переменным значения, а
 //    затем выводит на экран: в первой строке значения обеих переменных, во второй - произведение этих переменных, в третьей - сумму этих переменных.
-//
+    public static void task210(){
+        int a = 3;
+        int b = 5;
+    System.out.println(a*b);
+    System.out.println("a*b");
+    }
+
 //    Задание 2.11
 //    Напишите класс, который выводит на экран в одной строке ваше имя и
 //    фамилию, в друтой - телефон, все это - в рамке из «звездочек» ().
+  public static void task211() {
+      System.out.println("***********");
+      System.out.println("*имя фамилия*");
+      System.out.println("*09889*");
+      System.out.println("***********");
+  }
 //    Например:
-//    Иван Иванов
 //    7-841-266666
 //
 //    Задание 2.12
