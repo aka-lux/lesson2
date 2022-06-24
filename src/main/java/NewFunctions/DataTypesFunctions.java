@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class DataTypesFunctions {
     public static void main(String[] args) throws IOException {
         task1 ();
+        task2();
     }
 //    Задание 3.1
 //    Связь между температурой по шкале Цельсия и температурой по шкале Фаренгейта выражается формулой: C=S(F-32)/9, где С - температура
@@ -15,6 +16,7 @@ public class DataTypesFunctions {
 //    шкале Фаренгейта, а затем выводит на экран эту же температуру, но по
 //    шкале Цельсия.
 public static void task1 () throws IOException {
+    System.out.println("Введите число:");
     BufferedReader reader = new BufferedReader( new InputStreamReader(System.in));
     String temp = reader.readLine();
     double dtemp = Integer.parseInt(temp);
@@ -28,7 +30,13 @@ public static void task1 () throws IOException {
 //    Напишите класс, который принимает с клавиатуры значение, равное
 //    размеру в сантиметрах, и затем подсчитывает и выводит на экран это
 //    же значение, но в дюймах.
-//
+public static void task2 () throws IOException {
+    BufferedReader reader = new BufferedReader( new InputStreamReader(System.in));
+    String temp = reader.readLine();
+    double dtemp = Integer.parseInt(temp);
+    double far = dtemp * 2.54;
+    System.out.println(far);
+}
 //    Задание 3.4
 //    Для пересчета суммы в одной валюте - в сумму в другой валюте (например, между суммой в рублях и этой же суммой, но в евро) используется так называемый «банковский курс»: числовой коэффициент,
 //    показывающий, чему равна единица одной валюты в единицах другой.
