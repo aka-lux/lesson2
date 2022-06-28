@@ -1,14 +1,42 @@
 package NewFunctions;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class mathModFunctions {
-//    Задание 4.1
+    public static void main(String[] args) throws IOException {
+//        task41();
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+            task42();
+        }
+    }
+
+    //    Задание 4.1
 //    Напишите класс, который принимает с клавиатуры целое положительное двузначное число и выводит на экран его цифры, разделенные
 //    знаком «пробел».
-//
-//    Задание 4.2
+    public static void task41() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String name = reader.readLine();
+        System.out.println(name.charAt(0) + " " + name.charAt(1));
+    }
+
+    //    Задание 4.2
 //    Напишите класс, который принимает с клавиатуры целое положительное трехзначное число и выводит на экран его цифры, разделенные
 //    знаком «пробел».
-//
+    public static void task42() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String name = reader.readLine();
+        if (name.length() >2) {
+            System.out.println(name.charAt(0) + " " + name.charAt(1) + " " + name.charAt(2));
+        }
+        else {
+            System.out.println(
+                    "Incorrect value"
+            );
+        }
+}
 //    Задание 4.3
 //    Напишите класс, который принимает с клавиатуры целое положительное двузначное число и выводит на экран его цифры, разделенные
 //    знаком «пробел», но в обратном порядке. То есть для числа 45 будет
