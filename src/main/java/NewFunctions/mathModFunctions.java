@@ -15,9 +15,10 @@ public class mathModFunctions {
 //            task42();
 //        }
  //       task47();
-        task411();
+//        task411();
+        dataTypes();
     }
-
+    
     //    Задание 4.1
 //    Напишите класс, который принимает с клавиатуры целое положительное двузначное число и выводит на экран его цифры, разделенные
 //    знаком «пробел».
@@ -120,7 +121,12 @@ public class mathModFunctions {
 
     public static void task411() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String name = reader.readLine();
+
+        String name = reader.readLine();  //Вся строка 34
+        char charFromString = name.charAt(0); //Нулевой символ '3'
+        String stringFromChar = String.valueOf(charFromString); //Строка из нулевого символа "3"
+        int ii = Integer.parseInt(stringFromChar); //число типа int 3
+
         int digit1 = Integer.parseInt(
                 String.valueOf(
                         name.charAt(0)));
@@ -129,6 +135,33 @@ public class mathModFunctions {
                         name.charAt(1)));
         System.out.println(digit2 - digit1);
     }
+
+    //типы данных java
+
+    public static void dataTypes(){
+
+        int i = 10; // -2147483648   2147483647
+        long longMax = Long.MAX_VALUE; //-9223372036854775807 9223372036854775807
+
+        int i3 = (3/4) +1 ;
+        double d1 = 0.55;
+        double d2 = 0.123456789;
+
+        char c1 = '1';
+        char c2 = '2';
+        String stringFromChar = String.valueOf(c1); //Строка из нулевого символа "1"
+        int ii = Integer.parseInt(stringFromChar); //число типа int 3
+
+
+        String str1 = "Vasia 123459asdf asdfqowenirv\npoqwineurpovqzewropiu \n next line";
+        String str2 = String.valueOf(c1) + String.valueOf(c2);
+        String str3 = String.valueOf(c1);
+
+        System.out.println(str1);
+        System.out.println(str2);
+        System.out.println( 1 + 2 );
+    }
+
 //
 //    Задание 4.12
 //    Назовем «длиной трехзначного числа» разницу между его первой (число сотен) и последней (число единиц) цифрами, умноженную на его
