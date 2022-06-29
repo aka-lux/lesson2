@@ -1,3 +1,5 @@
+package hwLesson1;
+
 public class Printer {
     /*
     * Функция должна вернуть квадрат заполненный по образцу
