@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class mathModFunctions {
     public static void main(String[] args) throws IOException {
-        task46();
+        //       task46();
 //        task41();
 //        task43();
 //        task45();
@@ -14,6 +14,8 @@ public class mathModFunctions {
 //            System.out.println(i);
 //            task42();
 //        }
+ //       task47();
+        task411();
     }
 
     //    Задание 4.1
@@ -98,13 +100,35 @@ public class mathModFunctions {
 //    порядке. После этого новое значение следует увеличить на 8, и окончательный результат вывести на экран.
 //    То есть для числа 37 следует построить число 73 и вывести на экран 81.
 
-
+    public static void task47() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String name = reader.readLine();
+        int digit1 = Integer.parseInt(
+                String.valueOf(
+                        name.charAt(0)));
+        int digit2 = Integer.parseInt(
+                String.valueOf(
+                        name.charAt(1)));
+        System.out.println(digit2*10 + digit1 + 8);
+    }
 //
 //    Задание 4.11
 //    Назовем «длиной двузначного числа» разницу между числом десятков
 //            (первая цифра) и числом единиц (вторая цифра).
 //    Напишите класс, который принимает с клавиатуры двузначное число и
 //    выводит на экран его «длину».
+
+    public static void task411() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String name = reader.readLine();
+        int digit1 = Integer.parseInt(
+                String.valueOf(
+                        name.charAt(0)));
+        int digit2 = Integer.parseInt(
+                String.valueOf(
+                        name.charAt(1)));
+        System.out.println(digit2 - digit1);
+    }
 //
 //    Задание 4.12
 //    Назовем «длиной трехзначного числа» разницу между его первой (число сотен) и последней (число единиц) цифрами, умноженную на его
