@@ -1,7 +1,6 @@
+import hwLesson1.Printer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class PrinterTest {
     private static final String p1 =
@@ -24,6 +23,6 @@ class PrinterTest {
     void printer() {
         Assertions.assertEquals(p1,Printer.printer(1));
         Assertions.assertEquals(p2,Printer.printer(2));
-        Assertions.assertEquals(p3,Printer.printer(3));
+        Assertions.assertEquals(p3, Printer.printer(3));
     }
 }

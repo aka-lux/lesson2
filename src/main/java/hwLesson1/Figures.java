@@ -1,3 +1,5 @@
+package hwLesson1;
+
 public class Figures {
 
     /*
@@ -11,7 +13,7 @@ public class Figures {
      * Площадь квадрата S=a^2
      */
     public static long square(int a){
-        return a*a;
+        return (long) a*a;
     }
 
 }

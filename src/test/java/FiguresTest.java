@@ -1,7 +1,6 @@
+import hwLesson1.Figures;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class FiguresTest {
     Double epsilon = 0.01;
@@ -11,7 +10,7 @@ class FiguresTest {
         Assertions.assertEquals(52.3945,Figures.triangle(-11),epsilon);
         Assertions.assertEquals(0.0,Figures.triangle(0),epsilon);
         Assertions.assertEquals(0.433,Figures.triangle(1),epsilon);
-        Assertions.assertEquals(270.6329,Figures.triangle(25),epsilon);
+        Assertions.assertEquals(270.6329, Figures.triangle(25),epsilon);
         Assertions.assertEquals(248793.51,Figures.triangle(758),epsilon);
     }
 

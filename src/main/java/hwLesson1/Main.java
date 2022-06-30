@@ -1,9 +1,9 @@
-import java.io.*;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
+package hwLesson1;
 
-public class main {
-//    public static void main(String[] args) throws IOException, InterruptedException {
+import java.io.*;
+
+public class Main {
+//    public static void hwLesson1.main(String[] args) throws IOException, InterruptedException {
 //        //Вывод текста в консоль
 //        System.out.println("Введите число");
 //
@@ -15,7 +15,7 @@ public class main {
 //
 //        //Вывод результата в консоль
 ////        System.out.println("1"+1*3);
-////        System.out.println(ConsoleColors.BLUE_BOLD_BRIGHT + "Ваше число " + name + ConsoleColors.RESET);
+////        System.out.println(hwLesson1.ConsoleColors.BLUE_BOLD_BRIGHT + "Ваше число " + name + hwLesson1.ConsoleColors.RESET);
 ////
 //
 //        if (name.equals("q")){
@@ -31,7 +31,7 @@ public class main {
 //
 //    }
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args)  {
     String name = "Вася зйщцушгкзйщцушктзйщцмушгйкщзцшмуикщзйцшумкщзйцшгумтзщшйгцутщзкмйтгцщзушкгйцмщзшугкймщцзшугкз";
     int age = 100;
     double length = 100;
@@ -66,8 +66,8 @@ public class main {
 
 
 
-//    public static void main(String[] args) throws IOException {
-//        try (InputStream propFile = new FileInputStream("src/main/resources/app.properties")) {
+//    public static void hwLesson1.main(String[] args) throws IOException {
+//        try (InputStream propFile = new FileInputStream("src/hwLesson1.main/resources/app.properties")) {
 //            Properties prop = new Properties();
 //            prop.load(propFile);
 //
@@ -80,7 +80,7 @@ public class main {
 //        }
 //
 //        String expected_value = "Hello, world!";
-//        String file ="src/main/resources/text.txt";
+//        String file ="src/hwLesson1.main/resources/text.txt";
 //
 //        try ( InputStream txtFile = new FileInputStream(file);
 //               BufferedReader br = new BufferedReader(new InputStreamReader(txtFile)); ) {
@@ -91,7 +91,7 @@ public class main {
 //        }
 //
 //
-//        String fileCSV ="src/main/resources/num.csv";
+//        String fileCSV ="src/hwLesson1.main/resources/num.csv";
 //
 //        try ( InputStream txtFile = new FileInputStream(fileCSV);
 //              BufferedReader br = new BufferedReader(new InputStreamReader(txtFile)); ) {
@@ -103,16 +103,16 @@ public class main {
 //
 //    }
 
-//    public static void main(String[] args) throws IOException {
+//    public static void hwLesson1.main(String[] args) throws IOException {
 //
 //
 //        String str = "Hello";
-//        BufferedWriter writer1 = new BufferedWriter(new FileWriter("src/main/resources/1.txt"));
+//        BufferedWriter writer1 = new BufferedWriter(new FileWriter("src/hwLesson1.main/resources/1.txt"));
 //        writer1.write(str);
 //        writer1.close();
 //
 //
-//        BufferedWriter writer2 = new BufferedWriter(new FileWriter("src/main/resources/2.txt", true));
+//        BufferedWriter writer2 = new BufferedWriter(new FileWriter("src/hwLesson1.main/resources/2.txt", true));
 //        writer2.append("# # # ");
 //        writer2.append(str);
 //        writer2.append(" # # #");
