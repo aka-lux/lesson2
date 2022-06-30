@@ -91,7 +91,7 @@ public class VariablesFunc {
      */
     public static void task211() {
         System.out.println("*************");
-        System.out.println("*Иван Иванов*");
+        System.out.println("*Ivan Ivanov*");
         System.out.println("*12345678910*");
         System.out.println("*************");
     }
